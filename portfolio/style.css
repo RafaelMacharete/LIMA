@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #121212;
+    color: aliceblue;
+    /* font-family: "MuseoModerno", serif; */
+}
+
+/* Start of navbar */
+header > nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    font-family: "MuseoModerno", serif;
+
+}
+
+nav > .links > ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+
+nav > .links > ul > li{
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    font-size: 2rem;
+}
+
+/* nav > .links > ul > li{
+    font-family: 'Teko';
+
+} */
+/* End of navbar */
+
+
+/* Start of myself introduction */
+.myself-container{
+    font-family: "MuseoModerno", serif;
+
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5rem;
+}
+
+.myself-container > .about-me > ul{
+    padding:0.65rem 0;
+    list-style: none;
+}
+
+.myself-container > .about-me > ul > li{
+    font-size: 1.5rem;
+}
+
+/* End of myself introduction */
