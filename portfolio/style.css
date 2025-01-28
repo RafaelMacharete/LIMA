@@ -57,4 +57,12 @@ nav > .links > ul > li{
     font-size: 1.5rem;
 }
 
+.myself-container > .about-me > button{
+    border: none;
+    background-color: #003366;
+}
+
+.myself-container > .about-me > button > a{
+    text-decoration: none;
+}
 /* End of myself introduction */
