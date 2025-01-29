@@ -17,7 +17,6 @@ header > nav{
     align-items: center;
     padding: 1rem 5rem;
     font-family: "MuseoModerno", serif;
-
 }
 
 nav > .links > ul{
@@ -28,7 +27,8 @@ nav > .links > ul{
 
 nav > .links > ul > li{
     padding: 10px;
-    border: 1px solid whitesmoke;
+    border: 3px solid whitesmoke;
+    border-radius: 4px;
     font-size: 2rem;
 }
 
@@ -48,6 +48,13 @@ nav > .links > ul > li{
     padding-top: 5rem;
 }
 
+.myself-container > .about-me > h1{
+    font-size: 3.6rem;
+}
+.myself-container > .about-me > h1 > span{
+    color: rgb(255, 255, 217);
+}
+
 .myself-container > .about-me > ul{
     padding:0.65rem 0;
     list-style: none;
@@ -58,11 +65,78 @@ nav > .links > ul > li{
 }
 
 .myself-container > .about-me > button{
-    border: none;
-    background-color: #003366;
+    border: 0;
+    background-color: #033465;
+    border-radius: 8px;
+    width: 250px;
+    height: 50px;
+}
+
+.myself-container > .about-me > button > a{
+    color: #d1d1d1;
+    font-size: 2rem;
+    font-weight: bold;
 }
 
 .myself-container > .about-me > button > a{
     text-decoration: none;
+    font-family: 'Teko';
+    text-align: center;
 }
+
+/* Start of myself card */
+.myself-container > .card {
+    text-align: center;    
+    border: 1px solid rgb(55, 55, 55);
+    border-radius: 7px;
+    width: 270px;
+    height: 520px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 0.5s;
+}
+
+.myself-container > .card:hover{
+    transform: scale(1.05);
+}
+.myself-container > .card > .card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.myself-container > .card > .card-content > img{
+    border: 3px solid beige;
+    border-radius: 7px;
+}
+
+.myself-container >  .card > .card-content > .card-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.myself-container >  .card > .card-content > .card-text > p > q{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    color: #a0a0a0;
+    font-size: small;
+}
+
+.myself-container > .card > .card-content > .card-text > .my-name{
+    padding-top: 10px;
+    font-size: x-large;
+}
+.myself-container > .card > .card-content > .card-text > .my-status{
+    color: #033465;
+    font-size: x-large;
+}
+/* End of myself card */
 /* End of myself introduction */
