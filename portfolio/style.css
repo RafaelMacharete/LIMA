@@ -95,7 +95,7 @@ nav > .links > ul > li > a{
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: rgba(17, 0, 255, 0.4) -5px 5px, rgba(31, 173, 255, 0.3) -10px 10px, rgba(75, 219, 255, 0.2) -15px 15px, rgba(174, 236, 255, 0.1) -20px 20px, rgba(255, 255, 255, 0.05) -25px 25px;
+    box-shadow: rgba(255, 226, 176, 0.4) -5px 5px, rgba(255, 251, 224, 0.3) -10px 10px, rgba(255, 247, 220, 0.2) -15px 15px, rgba(174, 236, 255, 0.1) -20px 20px, rgba(255, 255, 255, 0.05) -25px 25px;
     transition: 0.5s;
 }
 
@@ -128,22 +128,9 @@ nav > .links > ul > li > a{
     font-size: x-large;
 }
 .myself-container > .card > .card-content > .card-text > .my-status{
-    color: aqua;
+    color: rgb(255, 255, 216);
     font-size: x-large;
 }
 /* End of myself card */
 /* End of myself introduction */
 
-.marquee-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    overflow: hidden;
-}
-
-.marquee {
-    display: inline-block;
-    white-space: nowrap;
-    padding: 0 20px;
-    animation: scroll 10s linear infinite;
-}
